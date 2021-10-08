@@ -8,16 +8,16 @@
     <title>Instagram</title>
   </head>
   <body>
-    <div>
-      <form class="container">
+    <div id="container">
+      <form>
         <h1>Sign Up</h1>
         <div id="user-name">
-          <label for="user-name"> Username </label>
-          <input type="text" id="user-name" required />
+          <label for="username"> Username </label>
+          <input type="text" id="username" required />
         </div>
         <div id="full-name">
-          <label for="full-name"> Full Name </label>
-          <input type="text" id="full-name" required />
+          <label for="fullname"> Full Name </label>
+          <input type="text" id="fullname" required />
         </div>
         <div id="user-email">
           <label for="email"> Email </label>
@@ -27,9 +27,9 @@
           <label for="password"> Password </label>
           <input type="password" id="password" required />
         </div>
-        <button type="submit" id="login-btn">Sign Up</button>
+        <button type="submit" id="signin-btn">Sign Up</button>
       </form>
-      <div className="w-100 text-center mt-2">
+      <div id="toggle-page">
         Already have an account? <a href="../../index.html">Log In</a>
       </div>
     </div>
